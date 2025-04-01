@@ -1,0 +1,176 @@
+/* Networking Hub page styles */
+.networking-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.networking-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.interest-groups, .mentorship-program, .discussion-forums {
+    margin-bottom: 40px;
+}
+
+.interest-groups h2, .mentorship-program h2, .discussion-forums h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+ .card-container {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+} 
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 30%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card h3 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+.card p {
+    margin-bottom: 15px;
+}
+
+.card .button {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.card .button:hover {
+    background-color: #2980b9;
+}
+
+.mentorship-program, .discussion-forums {
+    text-align: center;
+}
+
+.mentorship-program .button, .discussion-forums .button {
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #27ae60;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.mentorship-program .button:hover, .discussion-forums .button:hover {
+    background-color: #2ecc71;
+}
+
+
+
+
+
+
+
+body {
+    /* background-image: url(alumini.png); */
+    background-position:bottom;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #2c3e50;
+    color: rgb(221, 117, 76);
+}
+nav {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+}
+
+.nav-links li a:hover {
+    background-color: #34495e;
+    border-radius: 4px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right input[type="text"] {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.login-button, .signup-button {
+    padding: 8px 16px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login-button {
+    background-color: #3498db;
+    color: white;
+}
+
+.signup-button {
+    background-color: #e74c3c;
+    color: white;
+}
+
+
+
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

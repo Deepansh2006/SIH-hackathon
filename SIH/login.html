@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn-script.com/ajax/libs/jquery/3.7.1/jquery.js"></script>
+    <title>Login Type</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            /* background: linear-gradient(135deg, #74ebd5, #ACB6E5); */
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            overflow: hidden;
+            color: #fff;
+        }
+        .container {
+            text-align: center;
+            padding: 40px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 15px;
+            box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.18);
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        .container h1 {
+            margin-bottom: 30px;
+            font-size: 2.5rem;
+            color: #fff;
+        }
+        .btn {
+            padding: 15px 30px;
+            margin: 20px;
+            border: none;
+            border-radius: 50px;
+            cursor: pointer;
+            font-size: 1.2rem;
+            font-weight: bold;
+            color: #fff;
+            background: linear-gradient(45deg, #2193b0, #6dd5ed);
+            transition: transform 0.3s, background 0.3s;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        .btn:hover {
+            transform: translateY(-5px);
+            background: linear-gradient(45deg, #6dd5ed, #2193b0);
+        }
+        .student-btn {
+            background: linear-gradient(45deg, #56ab2f, #a8e063);
+        }
+        .student-btn:hover {
+            background: linear-gradient(45deg, #a8e063, #56ab2f);
+        }
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: scale(0.95);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Select Login Type</h1>
+        <button class="btn student-btn" onclick="location.href='loginstudent.html'">Student</button>
+        <button class="btn alumni-btn" onclick="location.href='loginalumini.html'">Alumni</button>
+    </div>
+</body>
+</html>

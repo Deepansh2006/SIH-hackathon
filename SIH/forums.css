@@ -1,0 +1,174 @@
+/* Forum Page styles */
+.forum-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.forum-container h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.forum-intro, .forum-categories, .forum-category, .participation-guidelines {
+    margin-bottom: 40px;
+}
+
+.forum-intro h2, .forum-categories h2, .forum-category h3, .participation-guidelines h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.forum-intro p, .forum-category p, .participation-guidelines p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.forum-categories ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.forum-categories li {
+    margin-bottom: 10px;
+}
+
+.forum-categories .category-link {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+}
+
+.forum-categories .category-link:hover {
+    text-decoration: underline;
+}
+
+.forum-category .button {
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #3498db;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.forum-category .button:hover {
+    background-color: #2980b9;
+}
+
+.participation-guidelines ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.participation-guidelines .button {
+    padding: 10px 20px;
+    border-radius: 4px;
+    background-color: #e74c3c;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+}
+
+.participation-guidelines .button:hover {
+    background-color: #c0392b;
+}
+
+
+
+
+
+body {
+    /* background-image: url(alumini.png); */
+    background-position:bottom;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #2c3e50;
+    color: rgb(221, 117, 76);
+}
+nav {
+    flex-grow: 1;
+    margin-left: 20px;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 12px;
+}
+
+.nav-links li a:hover {
+    background-color: #34495e;
+    border-radius: 4px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.header-right input[type="text"] {
+    padding: 6px 10px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+.login-button, .signup-button {
+    padding: 8px 16px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login-button {
+    background-color: #3498db;
+    color: white;
+}
+
+.signup-button {
+    background-color: #e74c3c;
+    color: white;
+}
+
+
+
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

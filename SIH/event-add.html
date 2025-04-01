@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add an Event - Alumni Event Page</title>
+    <link rel="stylesheet" href="event.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="InsightAlly.png" height="125px" width="120px" alt="InsightAlly Logo">
+        </div>
+
+        <nav>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="alumni-directory.html">Alumni Directory</a></li>
+                <li><a href="networking-hub.html">Networking Hub</a></li>
+                <li><a href="job-portal.html">Job Portal</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="donate.html">Donate</a></li>
+                <li><a href="success-stories.html">Success Stories</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+        <div class="header-right">
+            <input type="text" placeholder="Search...">
+            <button class="login-button">Login</button>
+            <button class="signup-button">Sign Up</button>
+        </div>
+    </header>
+
+    <div class="main">
+        <h1>Add an Event</h1>
+    </div>
+    <section class="event-form">
+        <h2>Submit Your Event</h2>
+        <form id="eventForm">
+            <input type="text" id="eventTitle" placeholder="Event Title" required>
+            <input type="date" id="eventDate" required>
+            <input type="time" id="eventTime" required>
+            <textarea id="eventDescription" placeholder="Event Description" required></textarea>
+            <input type="text" id="contactInfo" placeholder="Your Contact Info" required>
+            <button type="submit">Submit Event</button>
+        </form>
+        <a href="events.html" class="back-button">Back</a>
+    </section>
+    <footer>
+        <p>&copy; 2024 InsightAlly. All rights reserved.</p>
+    </footer>
+
+    <script src="event.js"></script>
+</body>
+</html>

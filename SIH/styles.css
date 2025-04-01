@@ -1,0 +1,160 @@
+/* Basic body and header styling */
+body {
+    background-image: url(alum2.jpg);
+    background-repeat: repeat-x; 
+    background-position:top;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    size: 200px;
+}
+.hero {
+    color: white;
+    position: absolute;
+    right: 5px; /* Start just a few pixels off from the right */
+    animation: slideIn 2s forwards ease-in-out; /* Animation properties */
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  /* Keyframes for animation */
+  @keyframes slideIn {
+    0% {
+      right: -1000px; /* Start just off-screen */
+    }
+    100% {
+      right: -40px; /* Move to 5px from the right */
+    }
+  }
+  
+ .hero h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+} */
+
+
+
+.background-image {
+ /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    height: 600px; /* Adjust based on your image size */
+}
+
+.connect-container {
+    text-align: center;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative; /* Adjust to overlap slightly with background image */
+    margin: 0 auto;
+    max-width: 600px; /* Optional: Limits container width */
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+    color: #333;
+    position: relative;
+    animation: fadeIn 2s ease-out;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icon-link {
+    display: inline-block;
+    animation: bounceIn 2s ease-in-out;
+}
+
+.social-icons a img {
+    width: 50px;
+    height: 50px;
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+.social-icons a img:hover {
+    transform: scale(1.2);
+    filter: brightness(1.2);
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.3);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
+
+
+
+
+
+
+/* footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+} */
+
+
